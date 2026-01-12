@@ -1,0 +1,56 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+drift-detector
+ec2-drift-detector
+
+# Test files
+*.test
+*.out
+coverage.html
+coverage.out
+
+# Dependencies
+vendor/
+
+# Go workspace
+go.work
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# AWS credentials
+credentials
+config
+*.pem
+*.key
+
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+
+# Logs
+*.log
+
+# Temporary
+tmp/
+temp/
+*.tmp
