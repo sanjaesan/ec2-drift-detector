@@ -172,3 +172,48 @@ make coverage
 ```
 
 Current test coverage: ~75%
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Run tests: `make test`
+5. Submit a pull request
+
+## License
+
+MIT License
+
+## Author
+
+Your Name - [Jubril Sanusi](mailto:sanusijubril.sj@gmail.com)
+
+## Future Improvements
+
+- **Google Cloud Platform (GCP)**: Support for Compute Engine instances
+- **Azure**: Support for Virtual Machines
+- **Multi-cloud detection**: Unified interface for all providers
+
+- **RDS Instances**: Database drift detection
+- **S3 Buckets**: Configuration and policy drift
+- **Lambda Functions**: Code and configuration drift
+
+- **HCL Parsing**: Direct `.tf` file parsing (not just state files)
+
+- **Auto-remediation**: Automatically fix certain types of drift
+- **Terraform Plan Generation**: Generate plans to fix detected drift
+- **Change Proposals**: Create pull requests with fixes
+- **Selective Remediation**: Fix only specified attributes
+
+- **HTML Dashboard**: Interactive web-based reports with charts
+- **Slack/Teams Integration**: Real-time notifications
+- **Email Reports**: Scheduled drift summaries
+- **Webhook Support**: Custom notification endpoints
+- **Trend Analysis**: Track drift over time with graphs
+
+## Acknowledgments
+
+- AWS SDK for Go v2
+- HashiCorp Terraform
+- Go community
